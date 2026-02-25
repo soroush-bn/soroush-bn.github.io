@@ -193,3 +193,12 @@ footer {
     background-color: #0f172a;
     color: #94a3b8;
 }
+
+.project-img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 12px;
+    margin: 1.5rem auto 0 auto; 
+    display: block; 
+}
