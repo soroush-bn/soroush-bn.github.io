@@ -1,0 +1,195 @@
+/* Base Styles & Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Prevents nav bar from covering section titles */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #334155;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #475569;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
+
+.resume-btn {
+    background-color: #2563eb;
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.resume-btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Sections */
+.section {
+    padding: 5rem 2rem;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.bg-light {
+    background-color: #f8fafc;
+}
+
+.content-box {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Typography */
+.title {
+    font-size: 3rem;
+    color: #0f172a;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: #2563eb;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.bio {
+    font-size: 1.125rem;
+    color: #475569;
+    margin-bottom: 2rem;
+}
+
+/* Grid & Cards */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.card h3 {
+    color: #0f172a;
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* Images */
+.hobby-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    object-fit: cover;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #0f172a;
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.social-links a:hover {
+    border-color: #2563eb;
+    color: #2563eb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #0f172a;
+    color: #94a3b8;
+}
