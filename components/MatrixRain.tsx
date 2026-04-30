@@ -158,6 +158,7 @@ export function MatrixRain() {
     }
 
     function resize() {
+      if (!ctx) return;
       dpr = Math.min(window.devicePixelRatio || 1, 1.75);
       w = window.innerWidth;
       h = window.innerHeight;
@@ -196,6 +197,7 @@ export function MatrixRain() {
     let lastFpsUpdate = performance.now();
 
     function step(now: number) {
+      if (!ctx) return;
       const dt = Math.min(48, now - lastT) / 16.6667; 
       lastT = now;
 
