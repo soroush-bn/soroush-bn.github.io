@@ -73,6 +73,7 @@ export default function Home() {
     { name: "Projects", id: "#projects" },
     { name: "Skills", id: "#skills" },
     // { name: "Blogs", id: "#blogs" },
+    { name: "Learning", id: "#learning" },
     { name: "Side Quests", id: "#side-quests" },
     { name: "Links", id: "#links" },
   ];
@@ -325,6 +326,64 @@ export default function Home() {
             </div>
           </div>
         </section> */}
+
+        {/* Learning Section */}
+        <section id="learning" className="py-32 px-6 bg-black/40">
+          <div className="max-w-6xl mx-auto">
+             <h2 className={`text-3xl font-bold mb-16 text-center text-white flex items-center justify-center gap-4 transition-opacity duration-300 ${fallingLink === '#learning' ? 'opacity-0' : 'opacity-100'}`}>
+                <span className="h-px w-12 bg-gray-800"></span>
+                Learning
+                <span className="h-px w-12 bg-gray-800"></span>
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-gray-900/40 backdrop-blur-md border border-gray-800 p-8 rounded-3xl group hover:border-cyan-500/50 transition-all duration-500 flex flex-col h-full">
+                <h3 className="text-xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors">Deep Learning: CS 182</h3>
+                <p className="text-gray-400 text-sm mb-6 flex-grow leading-relaxed">Spring 2021 by Sergey Levine</p>
+                <div className="mt-auto">
+                  <div className="flex justify-between text-xs text-gray-400 mb-2 font-mono">
+                    <span>Progress</span>
+                    <span>27 / 66 videos</span>
+                  </div>
+                  <div className="w-full bg-gray-800 rounded-full h-1.5 overflow-hidden">
+                    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-1.5 rounded-full" style={{ width: `${(27/66)*100}%` }}></div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-gray-900/40 backdrop-blur-md border border-gray-800 p-8 rounded-3xl group hover:border-cyan-500/50 transition-all duration-500 flex flex-col h-full">
+                <h3 className="text-xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors">Deep Learning Book</h3>
+                <a href="https://www.deeplearningbook.org/" target="_blank" className="text-gray-400 text-sm mb-6 flex-grow leading-relaxed hover:text-cyan-300 transition-colors flex items-center gap-1 w-fit">
+                  deeplearningbook.org
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
+                </a>
+                <div className="mt-auto">
+                  <div className="flex justify-between text-xs text-gray-400 mb-2 font-mono">
+                    <span>Progress</span>
+                    <span>Chapter 1 / 20</span>
+                  </div>
+                  <div className="w-full bg-gray-800 rounded-full h-1.5 overflow-hidden">
+                    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-1.5 rounded-full" style={{ width: `${(1/20)*100}%` }}></div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-gray-900/40 backdrop-blur-md border border-gray-800 p-8 rounded-3xl group hover:border-cyan-500/50 transition-all duration-500 flex flex-col h-full">
+                <h3 className="text-xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors">Amazon Cloud Practitioner</h3>
+                <a href="https://www.youtube.com/watch?v=NhDYbskXRgc" target="_blank" className="text-gray-400 text-sm mb-6 flex-grow leading-relaxed hover:text-cyan-300 transition-colors flex items-center gap-1 w-fit">
+                  YouTube Video
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
+                </a>
+                <div className="mt-auto">
+                  <div className="flex justify-between text-xs text-gray-400 mb-2 font-mono">
+                    <span>Progress</span>
+                    <span>6:06 / 14:00 hrs</span>
+                  </div>
+                  <div className="w-full bg-gray-800 rounded-full h-1.5 overflow-hidden">
+                    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-1.5 rounded-full" style={{ width: `${(6.1/14)*100}%` }}></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Side Quests Section */}
         <section id="side-quests" className="py-32 px-6">
