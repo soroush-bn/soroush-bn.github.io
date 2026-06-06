@@ -76,14 +76,20 @@ export default function Home() {
               </h2>
               <div className="bg-[url('/paper_bg.jpg')] bg-cover bg-center border border-gray-300 shadow-md p-8 rounded-2xl text-left">
                 <p className="text-lg text-gray-900 leading-relaxed mb-6 font-medium">
-                  Since 2016 when I attended my first programming competition, my passion for computer science has continually grown. I am fascinated by the process of breaking down seemingly impossible problems into solvable pieces.
-                </p>
+                  It was 2016, I got accepted in the second round of the ICPC programming constest in Tehran. This experience led me to choose computer engineering for my bachelor's degree. In the first years of my undergrad, I got interested in Java and how beautiful OOP is. Then I had an internship at biggest Software company in eastern Iran, Where I got into working with kotlin which is an upgraded version of Java in my opinion. I got hired at Part Software group and worked with a great talents there as a mobile developer.  
+                   </p>
                 <p className="text-lg text-gray-900 leading-relaxed mb-6 font-medium">
-                  This problem-solving mindset guided me through my bachelor's degree and industry experience, ultimately leading me to pursue a master's in computer science. 
-                </p>
+                 My last years of undergrad were more focused on machine learning and AI in general. I had the chance of getting an honor project working with model based reinforcement learning. After that I joined Done Company (former Huma) as a Datascientist. This was at the same time as LLMs showing up and we were trying to make the first Persian voice assistant for smart tvs, and we succeeded. It was a challenging and new experience but I learned a lot about MLops and machine learning at scale, we had to make sure our models could serve +60,000 users. 
+                                 </p>
                 <p className="text-lg text-gray-900 leading-relaxed font-medium">
-                  As I prepare to graduate, I am eager to apply my engineering and research skills to tackle real-world challenges across various domains.
-                </p>
+                 In 2024, I moved to Canada to pursue my master's degree at Memorial University, where I am currently a research assistant at the UCML Lab. My research focuses on synthetic data generation for bio-signals using 
+                 discrete representation and conditioned sequence modeling. I'm eager to apply my research skills and engineering mindset to some real world problems in the industry. If you feel like my experience can help you, or your projects, please don't hesitate to reach out!
+                                 </p>
+
+                                 <p>
+
+                                  p.s. About the background image, these are my notes from courses I took online due to covid lockdowns, I had some fundamental courses like Computer Architecture, Linear Algebra, and Differential Equations. No generative AI... just pure chaos and scrap papers and so much free time trying to solve diffrential equations and caluculating eigen values! 
+                                 </p>
               </div>
             </div>
           </section>
