@@ -146,20 +146,44 @@ export default function Home() {
                   {
                     title: "Space Invaders on STM32",
                     desc: "Implemented Space Invaders on an STM32 microcontroller using FreeRTOS.",
-                    img: "https://i.postimg.cc/ZRDJHgbh/photo-2026-02-25-10-58-24.jpg",
+                    img: "/space_invaders_on_stm32.png",
                     link: "https://github.com/soroush-bn/space-invaders-freeRTOS-STM32"
                   },
                   {
                     title: "Just Climb!",
                     desc: "A platform for climbers built with React, Next.js, and FastAPI. Focused on MVVM and microservices architecture.",
-                    img: "https://placehold.co/400x300/e2e8f0/475569?text=Coming+Soon",
+                    img: "/just_climb.png",
                     link: "https://github.com/soroush-bn/just-climb"
                   },
                   {
                     title: "Tennis-ball Collector",
                     desc: "Hackathon-winning robot that uses computer vision to find and collect tennis balls.",
-                    img: "https://i.postimg.cc/d1SJ6XsQ/photo-2026-02-25-10-58-19.jpg",
+                    img: "/tennis_ball_collector.png",
                     link: null
+                  },
+                  {
+                    title: "Lumon Simulator",
+                    desc: "A C++ text-based game inspired by Severance where players find and 'tame' abnormal numbers, built to practice OOP and SDL3.",
+                    img: "/sdl3.gif",
+                    link: "https://github.com/soroush-bn/lumon-simulator"
+                  },
+                  {
+                    title: "Gemini Job Agent",
+                    desc: "An automated pipeline that searches for jobs and researches companies using Google Gemini AI, generating tailored CVs and cover letters.",
+                    img: "https://placehold.co/400x300/e2e8f0/475569?text=Gemini+Job",
+                    link: "https://github.com/soroush-bn/gemini-job"
+                  },
+                  {
+                    title: "Coin Ranking",
+                    desc: "A cryptocurrency Android application developed in Kotlin using the Coinranking API. Built during my internship at Part Software.",
+                    img: "https://placehold.co/400x300/e2e8f0/475569?text=Coin+Ranking",
+                    link: "https://github.com/soroush-bn/coinranking"
+                  },
+                  {
+                    title: "Cloud Monolith to Microservice",
+                    desc: "A blog application demonstrating the transition from a monolithic architecture to a microservices-based system using Kotlin and Spring Boot.",
+                    img: "https://placehold.co/400x300/e2e8f0/475569?text=Cloud+Architecture",
+                    link: "https://github.com/soroush-bn/cloud-monolith-to-microservice"
                   }
                 ].map((p, i) => (
                   <div key={i} className="bg-[url('/paper_bg.jpg')] bg-cover bg-center border border-gray-300 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
