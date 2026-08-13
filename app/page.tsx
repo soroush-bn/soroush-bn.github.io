@@ -182,7 +182,7 @@ export default function Home() {
                   {
                     title: "Cloud Monolith to Microservice",
                     desc: "A blog application demonstrating the transition from a monolithic architecture to a microservices-based system using Kotlin and Spring Boot.",
-                    img: "https://placehold.co/400x300/e2e8f0/475569?text=Cloud+Architecture",
+                    img: "/cloud_bg.jpg",
                     link: "https://github.com/soroush-bn/cloud-monolith-to-microservice"
                   }
                 ].map((p, i) => (
