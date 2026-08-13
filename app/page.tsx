@@ -176,7 +176,7 @@ export default function Home() {
                   {
                     title: "Coin Ranking",
                     desc: "A cryptocurrency Android application developed in Kotlin using the Coinranking API. Built during my internship at Part Software.",
-                    img: "https://placehold.co/400x300/e2e8f0/475569?text=Coin+Ranking",
+                    img: "/coinranking_bg.png",
                     link: "https://github.com/soroush-bn/coinranking"
                   },
                   {
