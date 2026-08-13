@@ -92,35 +92,35 @@ export default function Home() {
 
               <h2 className="text-3xl font-bold mb-12 text-center text-gray-900 bg-white/70 backdrop-blur-sm px-8 py-3 rounded-xl shadow-sm inline-block mx-auto flex justify-center w-fit border border-gray-200">Research Focus</h2>
               <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-[url('/paper_bg.jpg')] bg-cover bg-center border border-gray-300 shadow-md p-10 rounded-2xl hover:shadow-lg transition-shadow">
-                  <div className="w-12 h-12 bg-blue-100/80 rounded-lg flex items-center justify-center mb-6 text-blue-700 border border-blue-200 shadow-sm">
-                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                      </svg>
+                <div className="bg-[url('/paper_bg.jpg')] bg-cover bg-center border border-gray-300 shadow-md rounded-2xl hover:shadow-lg transition-shadow overflow-hidden flex flex-col">
+                  <div className="relative overflow-hidden h-64 bg-gray-200 border-b border-gray-300">
+                    <img src="/fig3.1.jpg" alt="Synthetic Bio-Signal Generation" className="w-full h-full object-cover mix-blend-multiply opacity-90" />
                   </div>
-                  <h3 className="text-xl font-bold mb-4 text-gray-900">Synthetic Bio-Signal Generation</h3>
-                  <p className="text-gray-900 leading-relaxed font-medium">
-                    My current research focuses on generating highly accurate synthetic data for EMG and IMU signals. 
-                    By leveraging state-of-the-art architectures like VQ-VAEs and decoder-only transformers, 
-                    this work aims to significantly improve the training and responsiveness of prosthetic control systems.
-                  </p>
+                  <div className="p-8 flex-grow">
+                    <h3 className="text-xl font-bold mb-4 text-gray-900">Synthetic Bio-Signal Generation</h3>
+                    <p className="text-gray-900 leading-relaxed font-medium">
+                      My current research focuses on generating highly accurate synthetic data for EMG and IMU signals. 
+                      By leveraging state-of-the-art architectures like VQ-VAEs and decoder-only transformers, 
+                      this work aims to significantly improve the training and responsiveness of prosthetic control systems.
+                    </p>
+                  </div>
                 </div>
-                <div className="bg-[url('/paper_bg.jpg')] bg-cover bg-center border border-gray-300 shadow-md p-10 rounded-2xl hover:shadow-lg transition-shadow">
-                  <div className="w-12 h-12 bg-blue-100/80 rounded-lg flex items-center justify-center mb-6 text-blue-700 border border-blue-200 shadow-sm">
-                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477-4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                      </svg>
+                <div className="bg-[url('/paper_bg.jpg')] bg-cover bg-center border border-gray-300 shadow-md rounded-2xl hover:shadow-lg transition-shadow overflow-hidden flex flex-col">
+                  <div className="relative overflow-hidden h-64 bg-gray-200 border-b border-gray-300">
+                    <img src="/gesture.jpg" alt="EMG and IMU Gesture Recognition" className="w-full h-full object-cover mix-blend-multiply opacity-90" />
                   </div>
-                  <h3 className="text-xl font-bold mb-4 text-gray-900">EMG and IMU Gesture Recognition</h3>
-                  <p className="text-gray-900 leading-relaxed mb-8 font-medium">
-                    A comparative study evaluating the performance of electromyography (EMG) and inertial measurement unit (IMU) sensors for hand gesture recognition.
-                  </p>
-                  <a href="https://arxiv.org/abs/2512.07997" target="_blank" className="inline-flex items-center gap-2 text-blue-800 font-bold hover:text-blue-900 transition-colors bg-white/60 px-4 py-2 rounded-lg border border-gray-300 shadow-sm">
-                      Read on arXiv 
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                      </svg>
-                  </a>
+                  <div className="p-8 flex-grow flex flex-col">
+                    <h3 className="text-xl font-bold mb-4 text-gray-900">EMG and IMU Gesture Recognition</h3>
+                    <p className="text-gray-900 leading-relaxed mb-8 font-medium flex-grow">
+                      A comparative study evaluating the performance of electromyography (EMG) and inertial measurement unit (IMU) sensors for hand gesture recognition.
+                    </p>
+                    <a href="https://arxiv.org/abs/2512.07997" target="_blank" className="inline-flex items-center gap-2 text-blue-800 font-bold hover:text-blue-900 transition-colors bg-white/60 px-4 py-2 rounded-lg border border-gray-300 shadow-sm w-fit mt-auto">
+                        Read on arXiv 
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             
