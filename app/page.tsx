@@ -20,7 +20,7 @@ export default function Home() {
       
       {/* Overall Background Image with Alpha 0.6 and Blur */}
       <div 
-        className="absolute inset-0 bg-[url('/bg_notes.png')] bg-cover bg-center bg-fixed pointer-events-none z-0 blur-[2px]" 
+        className="absolute inset-0 bg-[url('/bg_notes.jpg')] bg-cover bg-center bg-fixed pointer-events-none z-0 blur-[2px]" 
         style={{ opacity: 0.6 }}
       ></div>
 
@@ -146,19 +146,19 @@ export default function Home() {
                   {
                     title: "Space Invaders on STM32",
                     desc: "Implemented Space Invaders on an STM32 microcontroller using FreeRTOS.",
-                    img: "/space_invaders_on_stm32.png",
+                    img: "/space_invaders_on_stm32.jpg",
                     link: "https://github.com/soroush-bn/space-invaders-freeRTOS-STM32"
                   },
                   {
                     title: "Just Climb!",
                     desc: "A platform for climbers built with React, Next.js, and FastAPI. Focused on MVVM and microservices architecture.",
-                    img: "/just_climb.png",
+                    img: "/just_climb.jpg",
                     link: "https://github.com/soroush-bn/just-climb"
                   },
                   {
                     title: "Tennis-ball Collector",
                     desc: "Hackathon-winning robot that uses computer vision to find and collect tennis balls.",
-                    img: "/tennis_ball_collector.png",
+                    img: "/tennis_ball_collector.jpg",
                     link: null
                   },
                   {
