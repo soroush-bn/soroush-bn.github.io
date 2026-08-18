@@ -83,7 +83,7 @@ export default function Home() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-[url('/paper_bg.jpg')] bg-cover bg-center border border-gray-300 shadow-md rounded-2xl hover:shadow-lg transition-shadow overflow-hidden flex flex-col">
                   <div className="relative overflow-hidden h-64 bg-gray-200 border-b border-gray-300">
-                    <img src="/fig3.1.jpg" alt="Synthetic Bio-Signal Generation" className="w-full h-full object-cover mix-blend-multiply opacity-90" />
+                    <img src="/fig3.1.jpg" alt="Synthetic Bio-Signal Generation" className="w-full h-full object-contain object-center mix-blend-multiply opacity-90" />
                   </div>
                   <div className="p-8 flex-grow">
                     <h3 className="text-xl font-bold mb-4 text-gray-900">Synthetic Bio-Signal Generation</h3>
@@ -96,7 +96,7 @@ export default function Home() {
                 </div>
                 <div className="bg-[url('/paper_bg.jpg')] bg-cover bg-center border border-gray-300 shadow-md rounded-2xl hover:shadow-lg transition-shadow overflow-hidden flex flex-col">
                   <div className="relative overflow-hidden h-64 bg-gray-200 border-b border-gray-300">
-                    <img src="/gesture.jpg" alt="EMG and IMU Gesture Recognition" className="w-full h-full object-cover mix-blend-multiply opacity-90" />
+                    <img src="/gesture.jpg" alt="EMG and IMU Gesture Recognition" className="w-full h-full object-contain object-center mix-blend-multiply opacity-90" />
                   </div>
                   <div className="p-8 flex-grow flex flex-col">
                     <h3 className="text-xl font-bold mb-4 text-gray-900">EMG and IMU Gesture Recognition</h3>
@@ -165,7 +165,7 @@ export default function Home() {
                 ].map((p, i) => (
                   <div key={i} className="bg-[url('/paper_bg.jpg')] bg-cover bg-center border border-gray-300 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
                     <div className="relative overflow-hidden h-48 bg-gray-200 border-b border-gray-300">
-                      <img src={p.img} alt={p.title} className="w-full h-full object-cover mix-blend-multiply opacity-90" />
+                      <img src={p.img} alt={p.title} className={`w-full h-full mix-blend-multiply opacity-90 ${p.title === 'Coin Ranking' ? 'object-contain object-center' : 'object-cover'}`} />
                     </div>
                     <div className="p-6 flex flex-col flex-grow">
                       <h3 className="text-xl font-bold mb-2 text-gray-900">{p.title}</h3>
